@@ -1,0 +1,7 @@
+# First we execute ngrok:
+./ngrok.exe http https://localhost:4200 --basic-auth 'ngrok:issecure' 
+
+# Then we start the velocidex server 
+./velociraptor.exe gui --config .\server.config.yaml
+
+# Still need to make client work good, <x509: certificate signed by unknown authority> error given though. Try to add my server certificates in client.config.yaml
