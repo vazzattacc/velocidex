@@ -1,0 +1,11 @@
+{"Timestamp":"2022-09-20 04:54:41.566143 +0000 UTC","Level":"DEFAULT","Message":"server_monitoring: Collecting \u003cgreen\u003eServer.Monitor.Health/Prometheus\u003c/\u003e\n"}
+{"Timestamp":"2022-09-20 04:54:42.4286129 +0000 UTC","Level":"DEFAULT","Message":"server_monitoring: Finished collecting Server.Monitor.Health/Prometheus\n"}
+{"Timestamp":"2022-09-20 04:54:42.4291214 +0000 UTC","Level":"DEBUG","Message":"Query Stats: {\"RowsScanned\":1,\"PluginsCalled\":1,\"FunctionsCalled\":0,\"ProtocolSearch\":0,\"ScopeCopy\":5}\n"}
+{"Timestamp":"2022-09-20 05:35:50.9857322 +0000 UTC","Level":"DEFAULT","Message":"server_monitoring: Collecting \u003cgreen\u003eServer.Monitor.Health/Prometheus\u003c/\u003e\n"}
+{"Timestamp":"2022-09-20 05:35:51.8383935 +0000 UTC","Level":"DEFAULT","Message":"server_monitoring: Finished collecting Server.Monitor.Health/Prometheus\n"}
+{"Timestamp":"2022-09-20 05:35:51.839358 +0000 UTC","Level":"DEBUG","Message":"Query Stats: {\"RowsScanned\":1,\"PluginsCalled\":1,\"FunctionsCalled\":0,\"ProtocolSearch\":0,\"ScopeCopy\":5}\n"}
+{"Timestamp":"2022-09-20 06:07:01.3235358 +0000 UTC","Level":"DEFAULT","Message":"server_monitoring: Collecting \u003cgreen\u003eServer.Monitor.Health/Prometheus\u003c/\u003e\n"}
+{"Timestamp":"2022-09-20 06:13:33.9197903 +0000 UTC","Level":"DEFAULT","Message":"server_monitoring: Collecting \u003cgreen\u003eServer.Monitor.Health/Prometheus\u003c/\u003e\n"}
+{"Timestamp":"2022-09-20 06:19:06.3907783 +0000 UTC","Level":"DEFAULT","Message":"server_monitoring: Collecting \u003cgreen\u003eServer.Monitor.Health/Prometheus\u003c/\u003e\n"}
+{"Timestamp":"2022-09-20 06:19:07.240153 +0000 UTC","Level":"DEFAULT","Message":"server_monitoring: Finished collecting Server.Monitor.Health/Prometheus\n"}
+{"Timestamp":"2022-09-20 06:19:07.241129 +0000 UTC","Level":"DEBUG","Message":"Query Stats: {\"RowsScanned\":1,\"PluginsCalled\":1,\"FunctionsCalled\":0,\"ProtocolSearch\":0,\"ScopeCopy\":5}\n"}
