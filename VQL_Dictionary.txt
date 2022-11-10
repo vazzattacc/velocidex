@@ -1,0 +1,19 @@
+# Artifact
+# Plugin 
+
+pslist(pid)					: returns process info
+modules(pid)				: returns information about the DLLs
+parse_pe(file)				: returns information about the executable file
+authenticode(filenamae) 	: returns the authentication (validation) info of a executable
+format(format="", args=[])	: formats
+
+
+# Forensic
+glob()                      : searching for files
+accesor                     : what type of data we are searching for
+parse_mft                   : scans de $mft from NTFS volume
+                                - Created0x30 is the real creation timestamp
+parse_nfts_i30              : Scans the #i30 strem from an NFTS MFT entry
+
+
+ 

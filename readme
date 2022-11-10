@@ -5,3 +5,21 @@
 ./velociraptor.exe gui --config .\server.config.yaml
 
 # Still need to make client work good, <x509: certificate signed by unknown authority> error given though. Try to add my server certificates in client.config.yaml
+
+# Add a new user
+.\velociraptor-windows.exe --config .\server.config.yaml user add vazz --role administrator
+
+#Allow ports
+sudo ufw allow 8080
+
+
+# Rm the service
+sudo systemctl stop velociraptor_server.service
+sudo systemctl disable velociraptor_server.service
+sudo rm /etc/systemd/system/velociraptor
+sudo rm /usr/lib/systemd/system/velociraptor
+sudo systemctl daemon-reload
+sudo systemctl reset-failed
+
+
+sudo iptables -A INPUT -p tcp --dport 4200 -m conntrack --ctstate NEW,ESTABLISHED -j ACCEPT

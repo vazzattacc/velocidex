@@ -1,0 +1,14 @@
+Chuletas
+
+# Creating Configuration
+.> velocidex.exe config generate -i
+
+server.config.yaml -> to config server
+client.config.yaml -> to config client
+
+"Once you generate a config, you can't regenerate it, it breaks, you'll have to update the existing config".
+
+
+.\velociraptor.exe --config server.config.yaml debian server --binary velociraptor-debian
+
+

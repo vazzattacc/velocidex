@@ -7,29 +7,29 @@ version:
   compiler: go1.18.4
 Client:
   server_urls:
-  - https://1f97-81-34-153-46.eu.ngrok.io/
+  - https://192.168.1.88:4300/
   ca_certificate: |
     -----BEGIN CERTIFICATE-----
-    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
+    MIIDSzCCAjOgAwIBAgIQXSG4xzm+MEIWoTBHqPzyoDANBgkqhkiG9w0BAQsFADAa
+    MRgwFgYDVQQKEw9WZWxvY2lyYXB0b3IgQ0EwHhcNMjIwOTI2MDU0ODE3WhcNMzIw
+    OTIzMDU0ODE3WjAaMRgwFgYDVQQKEw9WZWxvY2lyYXB0b3IgQ0EwggEiMA0GCSqG
+    SIb3DQEBAQUAA4IBDwAwggEKAoIBAQCpvuzpEM+Dj1Kbo9/FMnvYjYuraosuhyb4
+    9s0CpwowHMCfEpBdt35hwRHM0KgB39dQhVCzdV4bGP+XnmK4Xao/20nHc7jcU+Oi
+    CaQVE6O6tjqZDRgb2nDjRJb/iDU8kDJv/8y8Y4oZ9k0xtEgQP+qFgts1yzJAlNyt
+    eWvypm56GuMzsZUTk1mzIRkBNDIUg1TJvEJUnxXQYU1hx/3Vi+THoBCtyHsIKd/i
+    xqYfvZOQmsGpebGKQ9AhXq/p0W46vrCk0AdJ8Mjfq2Y2uHnvbfe4RkdUXZVUJMOP
+    fAmqY/fHPewMtLCzE2KMgJ4JxsvhYrbB6cmmbRqe840oahjCTjk9AgMBAAGjgYww
     gYkwDgYDVR0PAQH/BAQDAgKkMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcD
-    AjAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBQYuLj0TW27JacaceZQp4VDryKb
-    7jAoBgNVHREEITAfgh1WZWxvY2lyYXB0b3JfY2EudmVsb2NpZGV4LmNvbTANBgkq
-    hkiG9w0BAQsFAAOCAQEADYTWcxLpudDRh8dxrDeKKjEyY5qTCOOkL9M5zhmyrYkl
-    Dxic/UOb9Jn9Vh+bkcmHsp4IAtR/3R8U9ICeD2LLP3D33575/J6FxD3PDDgdbZLL
-    C8HGyiYFFSMDfcqMei+TNcrr3si6hHuLU/oBULFr0L/Qaj6hKjhIauUWuEmvCItX
-    qg57QdrrOt64SiaEFZbq52ce9a9KttTlOgzKUBFTlb/PFK4JEmpr+yjAXgikgLOl
-    J3QVeWlK6R79WDyFrWxjANAgj6is9SUzNWNuhicLvDir9UwJpwt+XYyIBqMnfX0G
-    94rHA+kIBk+DLC6xtih/Yx0IjFAzcY205InVF9Ynng==
+    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
     -----END CERTIFICATE-----
-  nonce: XaBf/i04NJ0=
+  nonce: lWPW+ggErY4=
   writeback_darwin: /etc/velociraptor.writeback.yaml
   writeback_linux: /etc/velociraptor.writeback.yaml
   writeback_windows: $ProgramFiles\Velociraptor\velociraptor.writeback.yaml
